@@ -1,15 +1,16 @@
 package com.perumal;
 
 public class Test {
-	public static void main(String ar[]) {
-		boolean isRoundFinished = true;
-		int negativeBet = 0;
+		//boolean isRoundFinished = true;
+		//int negativeBet = 0;
+	public static boolean check(boolean isRoundFinished, int negativeBet) {
 		if((isRoundFinished) && ((negativeBet == 0) || (negativeBet != 0))) {
-			System.out.println("true");
+			//System.out.println("true");
+			return true;
 		} else {
-			System.out.println("false");
+			//System.out.println("false");
+			return false;
 		}
-			
 	}
-
+	
 }
